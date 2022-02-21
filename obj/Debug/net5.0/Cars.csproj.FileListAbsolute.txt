@@ -1,0 +1,16 @@
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.csproj.AssemblyReference.cache
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.AssemblyInfoInputs.cache
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.AssemblyInfo.cs
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.csproj.CoreCompileInputs.cache
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\Cars.exe
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\Cars.deps.json
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\Cars.runtimeconfig.json
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\Cars.runtimeconfig.dev.json
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\Cars.dll
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\ref\Cars.dll
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\Cars.pdb
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.dll
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\ref\Cars.dll
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.pdb
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\Cars.genruntimeconfig.cache
