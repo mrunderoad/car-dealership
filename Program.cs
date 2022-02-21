@@ -10,12 +10,12 @@ namespace Dealership
     {
       Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792);
       Car yugo = new Car("1980 Yugo Koral", 700, 56000);
-      Console.WriteLine(yugo.MakeModel);
-      yugo.MakeModel = "Worst Car Ever";
-      Console.WriteLine(yugo.MakeModel);
+      // Console.WriteLine(yugo.MakeModel);
+      // yugo.MakeModel = "Worst Car Ever";
+      // Console.WriteLine(yugo.MakeModel);
       Car ford = new Car("1988 Ford Country Squire", 1400, 239001);
       Car amc = new Car("1976 AMC Pacer", 400, 198000);
-      
+
       List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc };
 
       Console.WriteLine("Enter maximum price: ");
@@ -32,6 +32,10 @@ namespace Dealership
         }
       }
 
+      // Console.WriteLine("Enter discount percentage: ");
+      // string stringDiscount = Console.ReadLine();
+      // int discount = int.Parse(stringDiscount);
+
       foreach(Car automobile in CarsMatchingSearch)
       {
         Console.WriteLine("----------------------");
@@ -39,6 +43,9 @@ namespace Dealership
         Console.WriteLine(automobile.Miles + " miles");
         Console.WriteLine("$" + automobile.Price);
         Console.WriteLine(Car.MakeSound("BANG-CLANG-SMASH"));
+        // automobile.NewSalesPrice(10);
+        Console.WriteLine(automobile.NewSalesPrice(5));
+        // Console.WriteLine("$" + automobile.NewSalesPrice(10));
       }
     }
   }

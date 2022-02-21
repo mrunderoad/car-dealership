@@ -7,40 +7,15 @@ namespace Dealership.Models
     public string MakeModel { get; set; }
     public int Price { get; set; }
     public int Miles { get; set; }
+    public int SalesPrice { get; set;}
 
     public Car(string makeModel, int price, int miles)
     {
       MakeModel = makeModel;
       Price = price;
       Miles = miles;
+      SalesPrice = Price;
     }
-
-    // public string MakeModel
-    // {
-    //   get
-    //   {
-    //     return "That's a big secret. You'll have to visit Lonny's to find out about our special deals!";
-    //   }
-    //   set
-    //   {
-    //     _makeModel = value;
-    //   }
-    // }
-
-    // public void SetPrice(int newPrice)
-    // {
-    //   _price = newPrice;
-    // }
-
-    // public int GetPrice()
-    // {
-    //   return _price;
-    // }
-
-    // public int GetMiles()
-    // {
-    //   return _miles;
-    // }
 
     public bool WorthBuying(int maxPrice)
     {
@@ -50,6 +25,17 @@ namespace Dealership.Models
     public static string MakeSound(string sound)
     {
       return "This car sounds like " + sound;
+    }
+
+    public int NewSalesPrice(int discount)
+    {
+      // return "The discounted price is: " + (price/discount);
+      int temp = discount/100;
+      int temp1 = 1-temp;
+      // return "The discounted price is " + Price*(1-(discount/100));
+      // SalesPrice = Price*(1-(discount/100));
+      return (Price * temp1);
+      // return (SalesPrice / discount);
     }
   }
 }
