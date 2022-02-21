@@ -3,3 +3,14 @@ C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.GeneratedM
 C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.AssemblyInfoInputs.cache
 C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.AssemblyInfo.cs
 C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\CarDealership.exe
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\CarDealership.deps.json
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\CarDealership.runtimeconfig.json
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\CarDealership.runtimeconfig.dev.json
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\CarDealership.dll
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\ref\CarDealership.dll
+C:\Users\isaac\OneDrive\car-dealership\bin\Debug\net5.0\CarDealership.pdb
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.dll
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\ref\CarDealership.dll
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.pdb
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.genruntimeconfig.cache
