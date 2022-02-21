@@ -1,0 +1,5 @@
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.csproj.AssemblyReference.cache
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.AssemblyInfoInputs.cache
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.AssemblyInfo.cs
+C:\Users\isaac\OneDrive\car-dealership\obj\Debug\net5.0\CarDealership.csproj.CoreCompileInputs.cache

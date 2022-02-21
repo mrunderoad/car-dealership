@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZKL0oKU+BhskVJTDoKn3GoHEy+OaxP+GTqHM1GYwFw4RrTEts5Sea/iTEKMSePjVLRKkpvEAczjTR9L0klZQAA==",
+  "dgSpecHash": "GdUpTXnyUf11pW81w+DqOsAXvCRHhU6A9cDsJtzX475ISR5jcdGKUhc/B6Ui2TqkaKdiHDUgLvfO+l5DUbtqzw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isaac\\OneDrive\\car-dealership\\Cars.csproj",
+  "projectFilePath": "C:\\Users\\isaac\\OneDrive\\car-dealership\\CarDealership.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

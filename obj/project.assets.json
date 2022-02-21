@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\isaac\\OneDrive\\car-dealership\\Cars.csproj",
-      "projectName": "Cars",
-      "projectPath": "C:\\Users\\isaac\\OneDrive\\car-dealership\\Cars.csproj",
+      "projectUniqueName": "C:\\Users\\isaac\\OneDrive\\car-dealership\\CarDealership.csproj",
+      "projectName": "CarDealership",
+      "projectPath": "C:\\Users\\isaac\\OneDrive\\car-dealership\\CarDealership.csproj",
       "packagesPath": "C:\\Users\\isaac\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\isaac\\OneDrive\\car-dealership\\obj\\",
       "projectStyle": "PackageReference",
