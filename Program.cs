@@ -8,15 +8,13 @@ namespace Dealership
   {
     public static void  Main()
     {
-      Car volkswagen = new Car("1974 Volkswagen Thing", 1100, 368792);
-      Car yugo = new Car("1980 Yugo Koral", 700, 56000);
-      // Console.WriteLine(yugo.MakeModel);
-      // yugo.MakeModel = "Worst Car Ever";
-      // Console.WriteLine(yugo.MakeModel);
-      Car ford = new Car("1988 Ford Country Squire", 1400, 239001);
-      Car amc = new Car("1976 AMC Pacer", 400, 198000);
+      Car volkswagen = new Car(1974, "Volkswagen Thing", 7000, 368792);
+      Car yugo = new Car(1980, "Yugo Koral", 6000, 56000);
+      Car ford = new Car(1988, "Ford Country Squire", 12000, 239001);
+      Car amc = new Car(1976, "AMC Pacer", 5000, 198000);
+      Car fast = new Car(2020, "Ferrari X600", 100000, 10000);
 
-      List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc };
+      List<Car> Cars = new List<Car>() { volkswagen, yugo, ford, amc, fast };
 
       Console.WriteLine("Enter maximum price: ");
       string stringMaxPrice = Console.ReadLine();
@@ -55,11 +53,13 @@ namespace Dealership
       foreach(Car automobile in CarsMatchingSearch)
       {
         Console.WriteLine("----------------------");
+        Console.WriteLine(automobile.Year);
         Console.WriteLine(automobile.MakeModel); 
         Console.WriteLine(automobile.Miles + " miles");
-        Console.WriteLine("$" + automobile.Price);
-        Console.WriteLine(Car.MakeSound("BANG-CLANG-SMASH"));
-        Console.WriteLine("$" + automobile.NewSalesPrice(discount));
+        Console.WriteLine("$" + automobile.RetailPrice);
+        Console.WriteLine("This car's resale value is: " + automobile.ResaleValue(automobile.Year));
+        Console.WriteLine(Car.MakeSound("vroom vroom beep beep"));
+        Console.WriteLine("Your discounted price is: $" + automobile.NewSalesPrice(discount));
       }
     }
   }
