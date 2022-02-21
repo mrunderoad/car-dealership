@@ -10,13 +10,14 @@ namespace Dealership.Models
     public int Miles { get; set; }
     public int SalesPrice { get; set;}
     public int CurrentPrice { get; set;}
-    public Car( int year, string makeModel, int retailPrice, int miles)
+    public Car(int year, string makeModel, int retailPrice, int miles)
     {
       Year = year;
       MakeModel = makeModel;
       RetailPrice = retailPrice;
       Miles = miles;
       CurrentPrice = RetailPrice;
+      ResaleValue(Year);
     }
 
     public bool WorthBuying(int maxPrice)
@@ -31,7 +32,7 @@ namespace Dealership.Models
 
     public int NewSalesPrice(int discount)
     {
-      SalesPrice = (RetailPrice*(100-discount))/100;
+      SalesPrice = (CurrentPrice*(100-discount))/100;
       return (SalesPrice);
     }
 

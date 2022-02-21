@@ -36,20 +36,7 @@ namespace Dealership
       bool summer = stringSeasonDiscount == "summer";
       bool spring = stringSeasonDiscount == "spring";
       int discount = 0;
-
-      if (summer)
-    {
-      discount = 5;
-    }
-      else if (spring)
-    {
-      discount = 2;
-    }
-      else
-    {
-      discount = 0;
-    }
-
+  
       foreach(Car automobile in CarsMatchingSearch)
       {
         Console.WriteLine("----------------------");
@@ -57,9 +44,24 @@ namespace Dealership
         Console.WriteLine(automobile.MakeModel); 
         Console.WriteLine(automobile.Miles + " miles");
         Console.WriteLine("$" + automobile.RetailPrice);
-        Console.WriteLine("This car's resale value is: " + automobile.ResaleValue(automobile.Year));
-        Console.WriteLine(Car.MakeSound("vroom vroom beep beep"));
-        Console.WriteLine("Your discounted price is: $" + automobile.NewSalesPrice(discount));
+        Console.WriteLine("This car's resale value based on its age is: " + automobile.CurrentPrice);
+            if (summer)
+        {
+          discount = 5;
+          Console.WriteLine("Your discounted price is: $" + automobile.NewSalesPrice(discount));
+        }
+          else if (spring)
+        {
+          discount = 2;
+          Console.WriteLine("Your discounted price is: $" + automobile.NewSalesPrice(discount));
+        }
+          else
+        {
+          discount = 0;
+          Console.WriteLine("Your price is: $" + automobile.NewSalesPrice(discount));
+        }
+        Console.WriteLine(Car.MakeSound("vroom vroom beep beep!"));
+        
       }
     }
   }
