@@ -29,13 +29,8 @@ namespace Dealership.Models
 
     public int NewSalesPrice(int discount)
     {
-      // return "The discounted price is: " + (price/discount);
-      int temp = discount/100;
-      int temp1 = 1-temp;
-      // return "The discounted price is " + Price*(1-(discount/100));
-      // SalesPrice = Price*(1-(discount/100));
-      return (Price * temp1);
-      // return (SalesPrice / discount);
+      SalesPrice = (Price*(100-discount))/100;
+      return (SalesPrice);
     }
   }
 }

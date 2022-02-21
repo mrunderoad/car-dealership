@@ -32,9 +32,25 @@ namespace Dealership
         }
       }
 
-      // Console.WriteLine("Enter discount percentage: ");
-      // string stringDiscount = Console.ReadLine();
-      // int discount = int.Parse(stringDiscount);
+      Console.WriteLine("Enter your season: ");
+      string stringSeasonDiscount = Console.ReadLine();
+
+      bool summer = stringSeasonDiscount == "summer";
+      bool spring = stringSeasonDiscount == "spring";
+      int discount = 0;
+
+      if (summer)
+    {
+      discount = 5;
+    }
+      else if (spring)
+    {
+      discount = 2;
+    }
+      else
+    {
+      discount = 0;
+    }
 
       foreach(Car automobile in CarsMatchingSearch)
       {
@@ -43,9 +59,7 @@ namespace Dealership
         Console.WriteLine(automobile.Miles + " miles");
         Console.WriteLine("$" + automobile.Price);
         Console.WriteLine(Car.MakeSound("BANG-CLANG-SMASH"));
-        // automobile.NewSalesPrice(10);
-        Console.WriteLine(automobile.NewSalesPrice(5));
-        // Console.WriteLine("$" + automobile.NewSalesPrice(10));
+        Console.WriteLine("$" + automobile.NewSalesPrice(discount));
       }
     }
   }
